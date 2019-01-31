@@ -1,7 +1,7 @@
 var map = L.map('map').setView([-31.671,-58.770], 7);
 
 var osmLayer = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors'
+    attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap<\/a> contributors'
 }).addTo(map);
 
 function popUpInfo(feature, layer) {
