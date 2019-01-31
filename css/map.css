@@ -1,0 +1,26 @@
+body {
+        margin: 0;
+        padding: 0;
+        background: #AED6F1;
+    }
+    #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 375px;
+        width: 80%;
+        border: black 5px solid;
+    }
+
+    h1 {
+        font: oblique bold 150% cursive;
+        padding-left: 15px;
+        text-decoration: underline;
+        
+    }
+
+    ol {
+        line-height: 30px;
+        font-weight: bold;
+    }
+}
